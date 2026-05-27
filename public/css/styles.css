@@ -2,8 +2,8 @@
 .main-panel {
   border: 1px solid silver;
   display: flex;
-  height: 550px;
-  width: 1138px;
+  block-size: 550px;
+  inline-size: 1138px;
   padding: 10px;
 }
 
@@ -11,24 +11,24 @@
 #ss {
   border: 1px solid gray;
   flex: none;
-  height: 550px;
-  width: 624px;
+  block-size: 550px;
+  inline-size: 624px;
 }
 
 /* 数式エディタに関連する要素のスタイル */
 .formulaeditor-panel {
   flex: none;
-  height: 550px;
-  width: 500px;
-  margin-left: 10px;
+  block-size: 550px;
+  inline-size: 500px;
+  margin-inline-start: 10px;
 }
 
 #apply {
-  margin-right: 162px;
+  margin-inline-end: 162px;
 }
 
 #fe {
   border: 1px solid gray;
-  height: 520px;
-  margin-top: 4px;
+  block-size: 520px; 
+  margin-block-start: 4px;
 }
